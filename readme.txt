@@ -10,7 +10,7 @@ Contact Form Generator is a powerful contact form builder for WordPress!
 
 == Description ==
 
-**Contact Form Generator** is a powerful contact form builder for WordPress! It can be used for creating *Contact forms*, *Application forms*, *Reservation forms*, *Survey forms* and much more.
+**Contact Form Generator** is a powerful contact form builder for WordPress! It can be used for creating *Contact Forms*, *Application Forms*, *Reservation Forms*, *Survey Forms*, *Contact Data Pages* and much more. You will get ready-to-use forms just after installation.
 
 **Contact Form Generator**  is packed with a [Template Creator Wizard](http://creative-solutions.net/wordpress/contact-form-generator/template-creator-demo) to create fantastic forms in a matter of seconds without coding. You can use one of existong templates, or create your own!
 
