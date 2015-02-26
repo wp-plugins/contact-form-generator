@@ -56,6 +56,20 @@ All you need is just to activate the plugin and insert the shortcode *[contactfo
 > * **Unlimited Forms** - 1 in free version!
 > * **Unlimited Fields** - 5 in free version!
 
+### Live Demos:
+> * [Basic Contact Form](http://creative-solutions.net/wordpress/contact-form-generator/demo?form_id=19&template_id=9) 
+> * [Contact Form With Captcha](http://creative-solutions.net/wordpress/contact-form-generator/demo?form_id=3&template_id=10) 
+> * [Contact Form With ReCaptcha](http://creative-solutions.net/wordpress/contact-form-generator/demo?form_id=4&template_id=11) 
+> * [Contact Data Page](http://creative-solutions.net/wordpress/contact-form-generator/demo?form_id=5&template_id=13) 
+> * [Contact Page With Maps](http://creative-solutions.net/wordpress/contact-form-generator/demo?form_id=6&template_id=14) 
+> * [Contact Page With About Us](http://creative-solutions.net/wordpress/contact-form-generator/demo?form_id=7&template_id=15) 
+> * [Mini Contact Form](http://creative-solutions.net/wordpress/contact-form-generator/demo?form_id=8&template_id=20) 
+> * [File Upload Progress](http://creative-solutions.net/wordpress/contact-form-generator/demo?form_id=9&template_id=16) 
+> * [Contact Form With Calendars](http://creative-solutions.net/wordpress/contact-form-generator/demo?form_id=10&template_id=18) 
+> * [Event Registration Form](http://creative-solutions.net/wordpress/contact-form-generator/demo?form_id=11&template_id=19) 
+> * [Simple Application Form](http://creative-solutions.net/wordpress/contact-form-generator/demo?form_id=12&template_id=21) 
+
+
 
 ### Support:
 Please `use` [Support Forum](http://creative-solutions.net/forum/contact-form-generator-wordpress/) for your questions and support requests!
