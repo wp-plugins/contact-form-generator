@@ -10,7 +10,7 @@ Contact Form Generator is a powerful contact form builder for WordPress!
 
 == Description ==
 
-**Contact Form Generator** is a powerful contact form builder for WordPress! It can be used for creating *Contact Forms*, *Application Forms*, *Reservation Forms*, *Survey Forms*, *Contact Data Pages* and much more. You will get ready-to-use forms just after installation.
+**Contact Form Generator** is a powerful contact form builder for WordPress! It can be used for creating *Contact Forms*, *Application Forms*, *Reservation Forms*, *Survey Forms*, *Contact Data Pages* and much more. You will get **ready-to-use forms** just after installation.
 
 **Contact Form Generator**  is packed with a [Template Creator Wizard](http://creative-solutions.net/wordpress/contact-form-generator/template-creator-demo) to create fantastic forms in a matter of seconds without coding. You can use one of existong templates, or create your own!
 
@@ -26,13 +26,35 @@ All you need is just to activate the plugin and insert the shortcode *[contactfo
 
 ### Main Fetures:
 > * **Flexible field types** - The following field types are avaliable: name, email, phone, address, url, number, textarea, select, multiple select, checkbox, radio!
-> * **Creative Template Creator Wizard** - Template creator wizard with live preview to create fantastic forms in a matter of seconds without coding. [Live Demo](http://creative-solutions.net/wordpress/contact-form-generator/template-creator-demo)
+> * **Template Creator Wizard** - Template creator wizard with live preview to create fantastic forms in a matter of seconds without coding. [Live Demo](http://creative-solutions.net/wordpress/contact-form-generator/template-creator-demo)
 > * **Insert forms anywhere** - You can use shortcode to insert forms anywhere in content!
 > * **Flexible texts** - Each text in form can be easily configured from form options!
 > * **Flexible email data configuration** - Multiple email recipients, BCC, reply to email, from email!
 > * **Auto-fill data** - Automatically fill in User name and email if logged in!
 > * **Attractive effects** - Completely new checkbox, radio selection effect, implemented special for this extension!
 > * **Page redirect** - Allows page redirect to URL or menu item after sending email!
+> * **Required fields** - Set all fields as required or not!
+> * **Ajax based** - Usage of AJAX technology, to send email without page reload!
+> * **High level Spam protection** - It has integrated anti-spam protechtion, to prevent you from getting spam emails!
+> * **Custom email subject** - The email subject can be customized!!
+> * **Shake effect if field is not valid** - Shackes count and distance can be configured from form options!
+> * **User friendly** - Flexible and user friendly interface for inputting checkbox,radio/select options. Drag & Drop reordering!
+
+### Commercial Fetures:
+> * **Multiple Columns support**
+> * **Show user info in sent email** - Page Title, Url, IP address, Operation System, Screen Resolution!
+> * **Custom Code: HTML, JavaScript, CSS**
+> * **Send copy to sender**
+> * **Image Captcha support**
+> * **Google ReCaptcha support**
+> * **Google Maps support**
+> * **Google Fonts / Font Effects**
+> * **File Upload support**
+> * **Datepicker support**
+> * **Tooltip support**
+> * **Creative Popup support**
+> * **Unlimited Forms** - 1 in free version!
+> * **Unlimited Fields** - 5 in free version!
 
 
 ### Support:
