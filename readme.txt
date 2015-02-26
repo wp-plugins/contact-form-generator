@@ -1,7 +1,7 @@
 === Contact Form Generator ===
 Contributors: creative-solutions
 Author: creative-solutions
-Tags: admin
+Tags: creative-solutions
 Requires at least: 3.6.1
 Tested up to: 4.1
 Stable tag: 1.0.0
@@ -22,7 +22,8 @@ All you need is just to activate the plugin and insert the shortcode *[contactfo
 > * [Documentation](http://creative-solutions.net/wordpress/contact-form-generator/documentation)
 > * [Support Forum](http://forum.creative-solutions.net/contact-form-generator-wordpress/)
 
-###IMPORTANT: If you think you found a bug in Contact Form Generator or have any problem or question concerning it, do not hesitate to contact us at [info@creative-solutions.net](mailto:info@creative-solutions.net).
+### Main Fetures:
+> * **Flexible field types** - The following field types are avaliable: name, email, phone, address, url, number, textarea, select, multiple select, checkbox, radio!
 
 
 ### Support:
