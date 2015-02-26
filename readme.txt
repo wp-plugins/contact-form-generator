@@ -42,7 +42,7 @@ All you need is just to activate the plugin and insert the shortcode *[contactfo
 
 ### Commercial Fetures:
 > * **Multiple Columns support**
-> * **Show user info in sent email** - Page Title, Url, IP address, Operation System, Screen Resolution!
+> * **Show user info in sent email** - *Page Title*, *Url*, *IP address*, *Operation System*, *Screen Resolution*!
 > * **Custom Code: HTML, JavaScript, CSS**
 > * **Send copy to sender**
 > * **Image Captcha support**
@@ -53,8 +53,8 @@ All you need is just to activate the plugin and insert the shortcode *[contactfo
 > * **Datepicker support**
 > * **Tooltip support**
 > * **Creative Popup support**
-> * **Unlimited Forms** - 1 in free version!
-> * **Unlimited Fields** - 5 in free version!
+> * **Unlimited Forms** - *1 in free version!*
+> * **Unlimited Fields** - *5 in free version!*
 
 ### Live Demos:
 > * [Basic Contact Form](http://creative-solutions.net/wordpress/contact-form-generator/demo?form_id=19&template_id=9) 
@@ -68,6 +68,13 @@ All you need is just to activate the plugin and insert the shortcode *[contactfo
 > * [Contact Form With Calendars](http://creative-solutions.net/wordpress/contact-form-generator/demo?form_id=10&template_id=18) 
 > * [Event Registration Form](http://creative-solutions.net/wordpress/contact-form-generator/demo?form_id=11&template_id=19) 
 > * [Simple Application Form](http://creative-solutions.net/wordpress/contact-form-generator/demo?form_id=12&template_id=21) 
+> * [Online Booking Form](http://creative-solutions.net/wordpress/contact-form-generator/demo?form_id=13&template_id=24) 
+> * [Hotel Reservation Form](http://creative-solutions.net/wordpress/contact-form-generator/demo?form_id=14&template_id=25) 
+> * [Evaluation Survey](http://creative-solutions.net/wordpress/contact-form-generator/demo?form_id=15&template_id=28) 
+> * [Complex Job Application Form](http://creative-solutions.net/wordpress/contact-form-generator/demo?form_id=17&template_id=28) 
+> * [All Elements Demo](http://creative-solutions.net/wordpress/contact-form-generator/demo?form_id=20&template_id=9) 
+> * [Sky Template Contact Form](http://creative-solutions.net/wordpress/contact-form-generator/demo?form_id=19&template_id=30) 
+> * [Wood Template Contact Form](http://creative-solutions.net/wordpress/contact-form-generator/demo?form_id=19&template_id=28) 
 
 
 
