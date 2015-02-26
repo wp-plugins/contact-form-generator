@@ -10,7 +10,9 @@ Contact Form Generator is a powerful contact form builder for WordPress!
 
 == Description ==
 
-**Contact Form Generator** is a powerful contact form builder for WordPress!  It is packed with a [Template Creator Wizard](http://creative-solutions.net/wordpress/contact-form-generator/template-creator-demo) to create fantastic forms in a matter of seconds without coding. 
+**Contact Form Generator** is a powerful contact form builder for WordPress! It can be used for creating *Contact forms*, *Application forms*, *Reservation forms*, *Survey forms* and much more.
+
+**Contact Form Generator**  is packed with a [Template Creator Wizard](http://creative-solutions.net/wordpress/contact-form-generator/template-creator-demo) to create fantastic forms in a matter of seconds without coding. You can use one of existong templates, or create your own!
 
 **Contact Form Generator** is extremely easy to install and configure. 
 All you need is just to activate the plugin and insert the shortcode *[contactformgenerator id="ID"]* into the text.
@@ -24,7 +26,7 @@ All you need is just to activate the plugin and insert the shortcode *[contactfo
 
 ### Main Fetures:
 > * **Flexible field types** - The following field types are avaliable: name, email, phone, address, url, number, textarea, select, multiple select, checkbox, radio!
-> * **Creative Template Creator Wizard** - Template creator wizard with live preview to create fantastic forms in a matter of seconds without coding.[Live Demo](http://creative-solutions.net/wordpress/contact-form-generator/template-creator-demo)
+> * **Creative Template Creator Wizard** - Template creator wizard with live preview to create fantastic forms in a matter of seconds without coding. [Live Demo](http://creative-solutions.net/wordpress/contact-form-generator/template-creator-demo)
 > * **Insert forms anywhere** - You can use shortcode to insert forms anywhere in content!
 > * **Flexible texts** - Each text in form can be easily configured from form options!
 > * **Flexible email data configuration** - Multiple email recipients, BCC, reply to email, from email!
