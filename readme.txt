@@ -10,8 +10,10 @@ Contact Form Generator is a powerful contact form builder for WordPress!
 
 == Description ==
 
-Contact Form Generator is a powerful contact form builder for WordPress!  It is packed with a Template Creator Wizard to create fantastic forms in a matter of seconds without coding. It is extremely easy to install and configure. 
-All you need is just to activate the plugin and insert the shortcode [contactformgenerator id="ID"] into the text. There is also a commercial version of the plugin with more useful features available.
+*Contact Form Generator* is a powerful contact form builder for WordPress!  It is packed with a Template Creator Wizard to create fantastic forms in a matter of seconds without coding. 
+
+*Contact Form Generator* is extremely easy to install and configure. 
+All you need is just to activate the plugin and insert the shortcode [contactformgenerator id="ID"] into the text.
 
 ### Useful Links:
 > * [Live Demo](http://creative-solutions.net/wordpress/contact-form-generator/demo) 
