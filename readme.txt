@@ -25,6 +25,12 @@ All you need is just to activate the plugin and insert the shortcode *[contactfo
 ### Main Fetures:
 > * **Flexible field types** - The following field types are avaliable: name, email, phone, address, url, number, textarea, select, multiple select, checkbox, radio!
 > * **Creative Template Creator Wizard** - Template creator wizard with live preview to create fantastic forms in a matter of seconds without coding.[Live Demo](http://creative-solutions.net/wordpress/contact-form-generator/template-creator-demo)
+> * **Insert forms anywhere** - You can use shortcode to insert forms anywhere in content!
+> * **Flexible texts** - Each text in form can be easily configured from form options!
+> * **Flexible email data configuration** - Multiple email recipients, BCC, reply to email, from email!
+> * **Auto-fill data** - Automatically fill in User name and email if logged in!
+> * **Attractive effects** - Completely new checkbox, radio selection effect, implemented special for this extension!
+> * **Page redirect** - Allows page redirect to URL or menu item after sending email!
 
 
 ### Support:
