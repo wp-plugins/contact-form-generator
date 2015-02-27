@@ -98,16 +98,16 @@ Use it and be happy!
 == Screenshots == 
 
 1. White Template
-2. Screenshot 2
-3. Screenshot 3
-4. Screenshot 4
-5. Screenshot 5
-6. Screenshot 6
-7. Screenshot 7
-8. Screenshot 8
+2. Drag&Drop reordering
+3. Easy-to-use shortcode manager
+4. Templatre Creator Wizard
+5. White Template 2
+6. Gray Template Example
+7. Yellow Template
+8. Green Template
 9. Screenshot 9
 10. Black Template
-11. Screenshot 11
-12. Screenshot 12
-13. Screenshot 13
-14. Screenshot 14
+11. Gray Template
+12. Wood Template
+13. Blue-White Template
+14. Easy to use admin
