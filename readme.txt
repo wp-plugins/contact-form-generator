@@ -97,7 +97,7 @@ Use it and be happy!
 
 == Screenshots == 
 
-1. Screenshot 1
+1. White Template
 2. Screenshot 2
 3. Screenshot 3
 4. Screenshot 4
@@ -106,7 +106,7 @@ Use it and be happy!
 7. Screenshot 7
 8. Screenshot 8
 9. Screenshot 9
-10. Screenshot 10
+10. Black Template
 11. Screenshot 11
 12. Screenshot 12
 13. Screenshot 13
