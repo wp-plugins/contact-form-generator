@@ -1,7 +1,7 @@
 === Contact Form Generator ===
 Contributors: creative-solutions
 Author: creative-solutions
-Tags:  admin, advanced form, AJAX, Akismet, Attachment, buddypress, captcha, category, comment, comments, contact, contact button, contact form, contact form 7, contact form builder, contact form plugin,contact form generator,contact data, contact forms, contact me, contact us, contacts, contacts form plugin, contatc, content, copy, CSS, css3, easy, easy contact form, easy contact plugin, email, Facebook, feed, feedback, feedback form, form, form builder, form solution, forms, google, html, html5, image, images, insert the shortcode, iPad, iphone, javascript, jquery, link, links, login, media, mobile, multilingual, network, page, pages, plugin, plugins, Post, post feedback, posts, request, responsive, Responsive Contact Form, responsive form, rss, secure, send, send copy, send messages, seo, Share, shortcode, shortcode form, sidebar, simple, social, society, stats, tablet, text, web form, web-page feedback, widget, wordpress
+Tags:  admin, advanced form, AJAX, Akismet, Attachment, buddypress, captcha, category, comment, comments, contact, contact button, contact form, contact form 7, contact form builder, contact form plugin,contact form generator,contact data, contact forms, contact me, contact us, contacts, contacts form plugin, contatc, content, copy, CSS, css3, easy, easy contact form, easy contact plugin, email, Facebook, feed, feedback, feedback form, form, form builder, form solution, forms, google, html, html5, image, images, insert the shortcode, iPad, iphone, javascript, jquery, link, links, login, media, mobile, multilingual, network, page, pages, plugin, plugins, Post, post feedback, posts, request, responsive, Responsive Contact Form, responsive form, rss, secure, send, send copy, send messages, seo, Share, shortcode, shortcode form, sidebar, simple, social, society, stats, tablet, text, web form, web-page feedback, widget, wordpress, recaptcha, AJAX, Attachment, contact, contact form, contact forms, contact us, custom form, customer request, drag-and-drop, email, email form, event forms, excel, feedback, file upload, form, form builder, form creator, form designer, form framework, form manager, form to email, forms, invitations, landing page, mail, php form builder, qtranslate, web form, appliaction form, poll, polls, survey, surveys, event, event registration form, job application
 Requires at least: 3.6.1
 Tested up to: 4.1
 Stable tag: 1.0.0
@@ -53,8 +53,8 @@ All you need is just to activate the plugin and insert the shortcode *[contactfo
 > * **Datepicker support**
 > * **Tooltip support**
 > * **Creative Popup support**
-> * **Unlimited Forms** - *1 in free version!*
-> * **Unlimited Fields** - *5 in free version!*
+> * **Unlimited Forms**
+> * **Unlimited Fields**
 
 ### Live Demos:
 > * [Basic Contact Form](http://creative-solutions.net/wordpress/contact-form-generator/demo?form_id=19&template_id=9) 
