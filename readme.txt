@@ -105,9 +105,9 @@ Use it and be happy!
 6. Gray Template Example
 7. Yellow Template
 8. Green Template
-9. Screenshot 9
+9. Fray Template
 10. Black Template
-11. Gray Template
+11. Sky Template
 12. Wood Template
 13. Blue-White Template
 14. Easy to use admin
