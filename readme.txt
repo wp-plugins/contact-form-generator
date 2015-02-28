@@ -40,22 +40,6 @@ All you need is just to activate the plugin and insert the shortcode *[contactfo
 > * **Shake effect if field is not valid** - Shackes count and distance can be configured from form options!
 > * **User friendly** - Flexible and user friendly interface for inputting checkbox,radio/select options. Drag & Drop reordering!
 
-### Commercial Fetures:
-> * **Multiple Columns support**
-> * **Show user info in sent email** - *Page Title*, *Url*, *IP address*, *Operation System*, *Screen Resolution*!
-> * **Custom Code: HTML, JavaScript, CSS**
-> * **Send copy to sender**
-> * **Image Captcha support**
-> * **Google ReCaptcha support**
-> * **Google Maps support**
-> * **Google Fonts / Font Effects**
-> * **File Upload support**
-> * **Datepicker support**
-> * **Tooltip support**
-> * **Creative Popup support**
-> * **Unlimited Forms**
-> * **Unlimited Fields**
-
 ### Live Demos:
 > * [Basic Contact Form](http://creative-solutions.net/wordpress/contact-form-generator/demo?form_id=19&template_id=9) 
 > * [Contact Form With Captcha](http://creative-solutions.net/wordpress/contact-form-generator/demo?form_id=3&template_id=10) 
