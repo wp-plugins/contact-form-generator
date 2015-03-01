@@ -36,6 +36,7 @@ All you need is just to activate the plugin and insert the shortcode *[contactfo
 > * **Required fields** - Set all fields as required or not!
 > * **Ajax based** - Usage of AJAX technology, to send email without page reload!
 > * **High level Spam protection** - It has integrated anti-spam protechtion, to prevent you from getting spam emails!
+> * **Load countries list** - It will load the countries list in your form(259 countries)!
 > * **Custom email subject** - The email subject can be customized!!
 > * **Shake effect if field is not valid** - Shackes count and distance can be configured from form options!
 > * **User friendly** - Flexible and user friendly interface for inputting checkbox,radio/select options. Drag & Drop reordering!
