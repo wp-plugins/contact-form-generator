@@ -1,5 +1,6 @@
 <?php
 header('Content-Type: text/css');
+// error_reporting(0);
 
 global $wpdb;
 
@@ -16,6 +17,9 @@ $query .=
 					'WHERE sp.published = \'1\' AND sp.id = \''.$id_form.'\' ';
 
 $styles_value = $wpdb->get_var($query);
+
+if(!isset($styles_value))
+	exit;
 
 $styles_array = explode('|',$styles_value);
 $styles = array();
