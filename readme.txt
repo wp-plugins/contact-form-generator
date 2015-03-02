@@ -4,13 +4,13 @@ Author: creative-solutions
 Tags: admin, advanced form, AJAX, Akismet, Attachment, buddypress, captcha, category, comment, comments, contact, contact button, Contact data, contact form, contact form 7, contact form builder, contact form generator, contact form plugin, contact forms, contact me, contact us, contacts, contacts form plugin, contatc, content, copy, CSS, css3, custom form, customer request, drag-and-drop, easy, easy contact form, easy contact plugin, email, email form, event, event forms, event registration form, excel, Facebook, feed, feedback, feedback form, file upload, form, form builder, form creator, form framework, form manager, form solution, form to email, forms, google, html, html5, image, images, insert the shortcode, invitations, iPad, iphone, javascript, job application, jquery, landing page, link, links, login, mail, media, mobile, multilingual, network, page, pages, php form builder, plugin, plugins, poll, polls, Post, post feedback, posts, qtranslate, recaptcha, request, responsive, Responsive Contact Form, responsive form, rss, secure, send, send copy, send messages, seo, Share, shortcode, shortcode form, sidebar, simple, social, society, stats, survey, surveys, tablet, text, twitter, web form, web-page, feedback, widget, wordpress
 Requires at least: 3.6.1
 Tested up to: 4.1
-Stable tag: 1.0.0
+Stable tag: 1.0.1
 
 Contact Form Generator is a powerful contact form builder for WordPress!
 
 == Description ==
 
-**Contact Form Generator** is a powerful contact form builder for WordPress! It can be used for creating *Contact Forms*, *Application Forms*, *Reservation Forms*, *Survey Forms*, *Contact Data Pages* and much more. You will get **ready-to-use forms** just after installation.
+**Contact Form Generator** is a powerful contact form builder for WordPress! It is structured for creating *Contact Forms*, *Application Forms*, *Reservation Forms*, *Survey Forms*, *Contact Data Pages* and much more. You will get **ready-to-use forms** just after installation.
 
 **Contact Form Generator**  is packed with a [Template Creator Wizard](http://creative-solutions.net/wordpress/contact-form-generator/template-creator-demo) to create fantastic forms in a matter of seconds without coding. You can use one of existong templates, or create your own!
 
@@ -76,6 +76,9 @@ You will find 'Contact Form Generator' menu in your WordPress admin panel.
 Use it and be happy!
 
 == Changelog ==
+
+= V 1.0.1 - 02/03/2015 =
+* Style correction in template creator wizard!
 
 = V 1.0.0 - 27/02/2015 =
 * Initial release
