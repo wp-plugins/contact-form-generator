@@ -1,42 +1,45 @@
 <?php
 // no direct access!
 defined('ABSPATH') or die("No direct access");
-
+// error_reporting(0);
 header('Content-Type: text/plain');
 ob_clean();
 global $wpdb;
 
-parse_str($_POST['data'],$wpcfg_my_post);
+$get_token = isset($_GET['get_token']) ? (int) $_GET['get_token'] : 0;
 
-$module_id = (int) $wpcfg_my_post['contactformgenerator_module_id'];
-$form_id = (int) $wpcfg_my_post['contactformgenerator_form_id'];
-$get_token = (int) $_GET['get_token'];
-$session_token = $_SESSION['contactformgenerator_token'];
-$token = $wpcfg_my_post['contactformgenerator_token'];
+if($get_token == 0) {
+	parse_str($_POST['data'],$wpcfg_my_post);
 
-//get form configuration
-$query = "
-			SELECT
-				sp.`email_to`,
-				sp.`email_bcc`,
-				sp.`email_subject`,
-				sp.`email_from`,
-				sp.`email_from_name`,
-				sp.`email_replyto`,
-				sp.`email_replyto_name`,
-				sp.`show_back`,
-				sp.`email_info_show_referrer`,
-				sp.`email_info_show_ip`,
-				sp.`email_info_show_browser`,
-				sp.`email_info_show_os`,
-				sp.`email_info_show_sc_res`
-			FROM
-				`".$wpdb->prefix."cfg_forms` sp
-			WHERE sp.published = '1'
-			AND sp.id = '".$form_id."'";
-$form_data = $wpdb->get_row($query);
+	$module_id = (int) $wpcfg_my_post['contactformgenerator_module_id'];
+	$form_id = (int) $wpcfg_my_post['contactformgenerator_form_id'];
+	$session_token = $_SESSION['contactformgenerator_token'];
+	$token = $wpcfg_my_post['contactformgenerator_token'];
 
-$check_token_enable = $form_data->show_back == 1 ? true : false;
+	//get form configuration
+	$query = "
+				SELECT
+					sp.`email_to`,
+					sp.`email_bcc`,
+					sp.`email_subject`,
+					sp.`email_from`,
+					sp.`email_from_name`,
+					sp.`email_replyto`,
+					sp.`email_replyto_name`,
+					sp.`show_back`,
+					sp.`email_info_show_referrer`,
+					sp.`email_info_show_ip`,
+					sp.`email_info_show_browser`,
+					sp.`email_info_show_os`,
+					sp.`email_info_show_sc_res`
+				FROM
+					`".$wpdb->prefix."cfg_forms` sp
+				WHERE sp.published = '1'
+				AND sp.id = '".$form_id."'";
+	$form_data = $wpdb->get_row($query);
+
+	$check_token_enable = $form_data->show_back == 1 ? true : false;
+}
 
 if($get_token == 0) {
 	if ($token != $session_token && $check_token_enable) {
@@ -138,6 +141,7 @@ if($get_token == 0) {
 		}
 		
 		//send email
+		$attach_files = array();
 		$wpcfg_send = wp_mail( $email_to, $contactformgenerator_subject, $body, $headers, $attach_files);
 		
 		if ( $wpcfg_send === true ) {

@@ -5,7 +5,7 @@ Plugin URI: http://creative-solutions.net/wordpress/contact-form-generator/
 Description: Contact Form Generator is a powerful contact form builder for WordPress!
 Author: Creative Solutions
 Author URI: http://creative-solutions.net/
-Version: 1.0.1
+Version: 1.0.2
 */
 
 //strat session
@@ -14,8 +14,8 @@ if (session_id() == '') {
 	//check
 }
 global $wpcfg_db_version;
-$plugin_version = '1.0.1';
-$wpcfg_db_version = '1.0.1';
+$plugin_version = '1.0.2';
+$wpcfg_db_version = '1.0.2';
 
 define('WPCFG_PLUGINS_URL', plugins_url());
 define('WPCFG_FOLDER', basename(dirname(__FILE__)));

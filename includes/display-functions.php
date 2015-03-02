@@ -146,6 +146,8 @@ function wpcfg_my_shortcode_head(){
 
 function wpcfg_enqueue_front_scripts($form_id) {
 	global $wpdb;
+	global $plugin_version;
+	$version = $plugin_version;
 	
 	//get field types array
 	$types_array = cfg_get_types_array($form_id);
@@ -225,7 +227,7 @@ function cfg_get_form_data($form_id) {
 				AND 
 					sp.id = '".$form_id."'";
 
-	$form_data = $wpdb->get_row($query);
+	$form_data = $wpdb->get_row($query,'ARRAY_A');
 
 	return $form_data;
 
@@ -346,8 +348,8 @@ function cfg_print_fields_array_html($field_data,$form_id) {
 	//Get variables////////////////////////////////////////////////////////////////////////////////////////////////////
 
 	$module_id = 0;
-	$templateid = $form_data->id_template;
-	$styles_row = $form_data->styles;
+	$templateid = $form_data["id_template"];
+	$styles_row = $form_data["styles"];
 	
 	$tooltip_style = get_rule_from_row(505,$styles_row);
 	$tooltip_style = $tooltip_style == '' ? 'white' : $tooltip_style;
@@ -580,8 +582,8 @@ function wpcfg_render_html($form_id)
 
 	$module_id = 0;
 
-	$templateid = $form_data->id_template;
-	$styles_row = $form_data->styles;
+	$templateid = $form_data["id_template"];
+	$styles_row = $form_data["styles"];
 
 	$tooltip_style = get_rule_from_row(505,$styles_row);
 	$tooltip_style = $tooltip_style == '' ? 'white' : $tooltip_style;
@@ -611,25 +613,25 @@ function wpcfg_render_html($form_id)
 
 	$REMOTE_ADDR = cfg_get_ip();
 
-	$toptxt = $form_data->top_text;
-	$pretxt = stripcslashes($form_data->pre_text);
+	$toptxt = $form_data["top_text"];
+	$pretxt = stripcslashes($form_data["pre_text"]);
 	$pretxt = cfg_process_txt($pretxt,array('num','popup'));
 
-	$form_width = $form_data->form_width;
-	$custom_css = $form_data->custom_css;
+	$form_width = $form_data["form_width"];
+	$custom_css = $form_data["custom_css"];
 
-	$thank_you_text = htmlspecialchars($form_data->thank_you_text,ENT_QUOTES);
-	$send_text = htmlspecialchars($form_data->send_text,ENT_QUOTES);
-	$send_new_text = htmlspecialchars($form_data->send_new_text,ENT_QUOTES);
-	$close_alert_text = htmlspecialchars($form_data->close_alert_text,ENT_QUOTES);
+	$thank_you_text = htmlspecialchars($form_data["thank_you_text"],ENT_QUOTES);
+	$send_text = htmlspecialchars($form_data["send_text"],ENT_QUOTES);
+	$send_new_text = htmlspecialchars($form_data["send_new_text"],ENT_QUOTES);
+	$close_alert_text = htmlspecialchars($form_data["close_alert_text"],ENT_QUOTES);
 
 	//send copy options
-	$send_copy_enable= (int) $form_data->send_copy_enable;
-	$send_copy_text=htmlspecialchars($form_data->send_copy_text,ENT_QUOTES);
+	$send_copy_enable= (int) $form_data["send_copy_enable"];
+	$send_copy_text=htmlspecialchars($form_data["send_copy_text"],ENT_QUOTES);
 
 	//strat rendering html///////////////////////////////////////////////////////////////////////////////////////////////
 	ob_start();
-	if(sizeof($field_data) > 0 && $form_data->published == 1) {
+	if(sizeof($field_data) > 0 && $form_data["published"] == 1) {
 		?>
 		<?php echo $cfg_google_link;?>
 		<div class="contactformgenerator_wrapper cfg_wrapper_animation_state_1 cfg_form_<?php echo $form_id;?> cfg_icon_<?php echo $cfg_global_icons_style;?> cfg_sections_template_<?php echo $cfg_sections_icons_style;?>" <?php if($form_width != '') { echo 'style="width: '.$form_width.' !important"'; }?> focus_anim_enabled="<?php echo $focus_anim_enabled;?>" error_anim_enabled="<?php echo $error_anim_enabled;?>" scrollbar_popup_style="<?php echo $scrollbar_popup_style;?>"  scrollbar_content_style="<?php echo $scrollbar_content_style;?>">
