@@ -148,6 +148,7 @@ function wpcfg_enqueue_front_scripts($form_id) {
 	global $wpdb;
 	global $plugin_version;
 	$version = $plugin_version;
+	$db_version = $plugin_version;
 	
 	//get field types array
 	$types_array = cfg_get_types_array($form_id);
