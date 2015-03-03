@@ -30,6 +30,7 @@
 	outline: none;
 	border: 1px solid #bbb !important;
 }
+
 .size_input:hover {
 	border: 1px solid #999;
 	background-color: #fffcd6;
@@ -92,6 +93,24 @@
 	position: fixed;
 	left: 0;
 	top: 0px;
+}
+
+.size_input_container {
+	display: block !important;
+	height: 25px !important;
+	padding: 3px !important;
+	margin: 0;
+	font-weight: bold;
+	color: #666 !important;
+	text-align: center;
+	font-size: 11px !important;
+	width: 45px;
+	padding-right: 14px !important;
+	border-radius: 4px !important;
+	-webkit-border-radius: 4px;
+	-moz-border-radius: 4px !important;
+	outline: none;
+	border: 1px solid #bbb !important;
 }
 
 .preview_box {
