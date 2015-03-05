@@ -20,6 +20,12 @@
 	border: 1px solid rgb(235, 207, 159);
 	border-top: 1px solid #D6D6D6;
 }
+.options_wrapper.disabled {
+	box-shadow: inset 0 0 16px 30px rgba(255, 219, 186, 0.9);
+	background-color: #cfcfcf;
+	border: 3px solid rgb(235, 207, 159);
+	border-top: 1px solid red;
+}
 
 
 .menus_header
