@@ -241,6 +241,20 @@ $(document).ready(function() {
 			return false;
 		}
 	});
+
+	//check/uncheck all
+	$("#wpcfg_close_rate_us_dialog").click(function() {
+			$(".wpcfg_rate_us_wrapper").hide();
+			$.post
+				(
+						"admin.php?page=cfg_forms&act=cfg_submit_data&holder=cfg_ajax",
+						{type: 'hide_rate_us'},
+						function(data)
+						{
+							return false;
+						}
+				);
+	});
 	
 					
 });

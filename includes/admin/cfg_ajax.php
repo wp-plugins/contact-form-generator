@@ -252,6 +252,9 @@ elseif($type == 'reorder_list') {
 		$wpdb->query($query);
 	}
 }
+elseif($type == 'hide_rate_us') {
+	$_SESSION['wpcfg_rate_us_counter'] = 100;
+}
 
 exit();
 ?>

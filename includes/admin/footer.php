@@ -1,3 +1,19 @@
+
+<?php 
+if(!isset($_SESSION['wpcfg_rate_us_counter']))
+	$_SESSION['wpcfg_rate_us_counter'] = 0;
+else
+	$_SESSION['wpcfg_rate_us_counter'] ++;
+
+?>
+<?php if ($_SESSION['wpcfg_rate_us_counter'] > 3 && $_SESSION['wpcfg_rate_us_counter'] < 100): ?>	
+<div class="wpcfg_rate_us_wrapper">
+	<b>PLEASE</b> help us to make this plugin more popular, and write a <b>5-star</b> review in <a href="https://wordpress.org/support/view/plugin-reviews/contact-form-generator" target="_blank">Plugins Directory</a>.
+	<br /> That will take less than 5 minutes, but is extremely important for us! <span class="wpcfg_thx">Thanks in advance!</span>
+	<div id="wpcfg_close_rate_us_dialog" title="Hide this box">Close</div>
+</div>
+<?php endif ?>
+
 <table class="adminlist bottom_table" style="width: 100%;clear: both;"><tr><td align="center" valign="middle" id="cfg_ext_td" style="position: relative;">
 	<div id="cfg_bottom_link"><a href="http://creative-solutions.net/wordpress/contact-form-generator" target="_blank">Contact Form Generator</a> developed and designed by <a href="http://creative-solutions.net/" target="_blank">Creative Solutions</a></div>
 	<div style="position: absolute;right: 2px;top: 7px;">
@@ -7,29 +23,37 @@
 	</div>
 </td></tr></table>
 
-<style>
-.wpsxp_more_products {
-	padding-bottom: 14px;
-	border-bottom: 2px dashed #bbb;
-	font-style: italic;
-	color: #464646;
-	margin: 15px 0 30px 10px;
-	font-weight: normal;
-	font-size: 22px;
+<style type="text/css">
+.wpcfg_rate_us_wrapper {
+	line-height: 20px;
 	text-align: center;
+	padding: 10px;
+	border: 1px solid rgb(158, 158, 158);
+	background-color: rgba(246, 250, 95, 0.37);
+	border-radius: 12px;
+	clear: both;
+	margin-bottom: 5px;
+	position: relative;
 }
-.wpsxp_ext_name {
-	display: block;
-	font-style: italic;
+.wpcfg_thx {
+	font-size: 105%;
+	color: rgb(224, 0, 0);
 	font-weight: bold;
-	margin: 0 0 20px 5px;
-	text-decoration: none;
-	font-size: 26px;
 }
-.wpsxp_more_product_links {
-	display: inline-block;
-	float: left;
-	padding: 5px 10px;
+.wpcfg_rate_us_wrapper a{
+	font-weight: bold;
+}
+#wpcfg_close_rate_us_dialog {
+	text-decoration: underline;
+	position: absolute;
+	top: 0px;
+	right: 11px;
 	font-style: italic;
+	font-size: 12px;
+	cursor: pointer;
 }
+#wpcfg_close_rate_us_dialog:hover {
+	color: rgb(224, 0, 0);
+}
+
 </style>

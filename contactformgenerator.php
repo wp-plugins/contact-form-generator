@@ -2,10 +2,10 @@
 /*
 Plugin Name: Contact Form Generator
 Plugin URI: http://creative-solutions.net/wordpress/contact-form-generator/
-Description: Contact Form Generator is a powerful contact form builder for WordPress!
+Description: Contact Form Generator is a powerful contact form builder for WordPress! See <a href="http://creative-solutions.net/wordpress/contact-form-generator/demo">Live Demos</a>. It is packed with a <a href="http://creative-solutions.net/wordpress/contact-form-generator/template-creator-demo">Template Creator Wizard</a> to create fantastic forms in a matter of seconds without coding.
 Author: Creative Solutions
 Author URI: http://creative-solutions.net/
-Version: 1.0.2
+Version: 1.0.3
 */
 
 //strat session
