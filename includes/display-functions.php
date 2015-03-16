@@ -568,20 +568,6 @@ function cfg_print_fields_array_html($field_data,$form_id) {
 	}
 }
 
-function wpcfg_make_statistics() {
-	if(!file_exists(ABSPATH.PLUGINDIR.'/contact-form-generator/wpcfg.log') and is_writable(ABSPATH.PLUGINDIR.'/contact-form-generator')) {
-		// send domain, for usage statistics 
-		// this will run only once
-
-		$domain = $_SERVER['HTTP_HOST'].$_SERVER['REQUEST_URI'];
-		$fh = @fopen('http://creative-solutions.net/make-statistics?ext=cfg-wp&domain='.$domain, 'r');
-		@fclose($fh);
-
-		$fh = fopen(ABSPATH.PLUGINDIR.'/contact-form-generator/wpcfg.log', 'a');
-		fclose($fh);
-	}
-}
-
 function wpcfg_render_html($form_id)
 {
 	global $wpdb;
@@ -596,8 +582,6 @@ function wpcfg_render_html($form_id)
 	$field_data = cfg_get_field_data($form_id);
 
 	$module_id = 0;
-
-	wpcfg_make_statistics();
 
 	$templateid = $form_data["id_template"];
 	$styles_row = $form_data["styles"];
@@ -725,6 +709,7 @@ function wpcfg_render_html($form_id)
 		 			<input type="hidden" value="" class="cfg_sc_res"  name="contactformgenerator_sc_res" />
 		 			<input type="hidden" value="<?php echo $module_id;?>" class="contactformgenerator_module_id" name="contactformgenerator_module_id" />
 		 			<input type="hidden" value="<?php echo $form_id;?>" class="contactformgenerator_form_id" name="contactformgenerator_form_id" />
+					<div style="display: none !important">Powered By <a href="http://creative-solutions.net/wordpress/contact-form-generator" target="_blank">Contact Form Generator</a></div>
 	 			</div>
  			</form>
  		</div>

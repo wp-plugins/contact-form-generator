@@ -67,6 +67,10 @@ echo '<style>
 			width: 38px !important;
 			right: 6px !important;
 		}
+		.colorpicker_hex input.inactive_state {
+			width: 38px !important;
+			right: 6px !important;
+		}
 </style>';
 ?>
 <script type="text/javascript">
