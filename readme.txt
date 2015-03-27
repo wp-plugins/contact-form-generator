@@ -94,17 +94,17 @@ Use it and be happy!
 
 == Screenshots == 
 
-1. White Template
-2. Drag&Drop reordering
-3. Easy-to-use shortcode manager
-4. Templatre Creator Wizard
-5. White Template 2
-6. Gray Template Example
-7. Yellow Template
-8. Green Template
-9. Fray Template
+01. White Template
 10. Black Template
-11. Sky Template
 12. Wood Template
+11. Sky Template
+09. Gray Template
+04. Templatre Creator Wizard
 13. Blue-White Template
+02. Drag&Drop reordering
+03. Easy-to-use shortcode manager
+05. White Template 2
+06. Gray Template Example
+07. Yellow Template
+08. Green Template
 14. Easy to use admin
