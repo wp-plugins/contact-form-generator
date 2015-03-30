@@ -241,3 +241,14 @@ background: none;
 font-size: 11px;
 display: inline-block;;
 }
+
+.size_arrows.has_label {
+display: block;
+position: absolute;
+background: transparent url("../images/bg_size_arrows.png") 2px 1px no-repeat;
+width: 14px;
+height: 23px;
+left: 37px;
+top: 1px;
+cursor: pointer;
+}
