@@ -59,8 +59,11 @@ All you need is just to activate the plugin and insert the shortcode *[contactfo
 > * [Complex Job Application Form](http://creative-solutions.net/wordpress/contact-form-generator/demo?form_id=17&template_id=28) 
 > * [All Elements Demo](http://creative-solutions.net/wordpress/contact-form-generator/demo?form_id=20&template_id=9) 
 > * [Sky Template Contact Form](http://creative-solutions.net/wordpress/contact-form-generator/demo?form_id=19&template_id=30) 
-> * [Wood Template Contact Form](http://creative-solutions.net/wordpress/contact-form-generator/demo?form_id=19&template_id=28) 
+> * [Wood Template Contact Form](http://creative-solutions.net/wordpress/contact-form-generator/demo?form_id=19&template_id=28)
 
+### Other Creative Plugins:
+> * [Creative Image Slider](https://wordpress.org/plugins/creative-image-slider/) - Powerful WordPress slider! [Live Demo](http://creative-solutions.net/wordpress/creative-image-slider/demo)
+> * [GSpeech](https://wordpress.org/plugins/gspeech/) - Speaks any text in your site! [Live Demo](http://creative-solutions.net/wordpress/gspeech/demo)
 
 
 ### Support:
