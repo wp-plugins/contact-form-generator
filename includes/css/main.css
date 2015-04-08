@@ -17,7 +17,7 @@
 }
 .contactformgenerator_wrapper {
 	width: 98%;
-	margin: 15px auto;
+	margin: 15px 0;
 	padding: 0 !important;
 	position: relative !important;
 	float: none !important;
@@ -27,6 +27,7 @@
 	-o-transition: background linear 0.2s, background-color linear 0.2s, box-shadow linear 0.2s, border linear 0.2s;
 	transition: background linear 0.2s, background-color linear 0.2s, box-shadow linear 0.2s, border linear 0.2s;
 }
+
 .contactformgenerator_wrapper * {
 	font-family: inherit;
 }
@@ -715,3 +716,17 @@
 	background-color: transparent !important;
 }
 
+.contactformgenerator_wrapper.cfg_animated {
+	width: 98%;
+	margin: 15px 0;
+	padding: 0 !important;
+	position: relative !important;
+	float: none !important;
+
+	border-radius: 0;
+	
+	-webkit-transition:  background linear 0.2s, background-color linear 0.2s, box-shadow linear 0.2s, border linear 0.2s;
+	-moz-transition: background linear 0.2s, background-color linear 0.2s, box-shadow linear 0.2s, border linear 0.2s;
+	-o-transition: background linear 0.2s, background-color linear 0.2s, box-shadow linear 0.2s, border linear 0.2s;
+	transition: background linear 0.2s, background-color linear 0.2s, box-shadow linear 0.2s, border linear 0.2s;
+}
