@@ -378,3 +378,21 @@ font-style: normal;
 	outline: none;
 	border: 1px solid #bbb;
 }
+
+.size_input_inactived {
+	display: block !important;
+	height: 25px !important;
+	padding: 3px !important;
+	margin: 0;
+	font-weight: bold;
+	color: #666 !important;
+	text-align: center;
+	font-size: 11px !important;
+	width: 45px;
+	padding-right: 14px !important;
+	border-radius: 4px !important;
+	-webkit-border-radius: 4px;
+	-moz-border-radius: 4px !important;
+	outline: none;
+	border: 1px solid #bbb !important;
+}
