@@ -100,7 +100,7 @@ Use it and be happy!
 
 == Screenshots == 
 
-01. White Template
+01. White Template Contact Form
 02. Black Template
 03. Wood Template
 04. Sky Template
