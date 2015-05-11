@@ -5,11 +5,15 @@ global $wpcfg_field_index;
 global $wpcfg_section_width;
 global $wpcfg_section_id;
 global $wpcfg_heading_text_font_effect;
+global $wpcfg_db_edit_enable;
+
 $wpcfg_token = '';
 $wpcfg_field_index = 1;
 $wpcfg_section_width = '';
 $wpcfg_section_id = 1;
 $wpcfg_heading_text_font_effect = '';
+
+$wpcfg_db_edit_enable = false;
 
 function getBrowser() { 
 	    $u_agent = $_SERVER['HTTP_USER_AGENT']; 
