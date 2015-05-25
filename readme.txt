@@ -4,7 +4,7 @@ Author: creative-solutions
 Tags: admin, advanced form, AJAX, Akismet, Attachment, buddypress, captcha, category, comment, comments, contact, Contact data, contact form, contact form 7, contact form builder, contact form generator, contact form plugin, contact forms, contact me, contact us, contacts, contacts form plugin, contatc, content, copy, CSS, css3, custom form, customer request, drag-and-drop, easy, easy contact form, easy contact plugin, email, email form, event, event forms, event registration form, excel, Facebook, feed, feedback, feedback form, file upload, form, form builder, form creator, form framework, form manager, form solution, form to email, forms, google, html, html5, image, images, insert the shortcode, invitations, iPad, iphone, javascript, job application, jquery, landing page, link, links, login, mail, media, mobile, multilingual, network, page, pages, php form builder, plugin, plugins, poll, polls, Post, post feedback, posts, qtranslate, recaptcha, request, responsive, Responsive Contact Form, responsive form, rss, secure, send, send copy, send messages, seo, Share, shortcode, shortcode form, sidebar, simple, social, society, stats, survey, surveys, tablet, text, twitter, web form, web-page, feedback, widget, wordpress
 Requires at least: 3.6.1
 Tested up to: 4.2.2
-Stable tag: 1.0.6
+Stable tag: 1.0.7
 
 Contact Form Generator is a powerful contact form builder for WordPress!
 
