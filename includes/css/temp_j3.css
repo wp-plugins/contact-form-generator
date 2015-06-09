@@ -396,3 +396,15 @@ font-style: normal;
 	outline: none;
 	border: 1px solid #bbb !important;
 }
+
+/*extra*/
+.size_arrows_added {
+	display: block;
+	position: absolute;
+	background: transparent url("../images/bg_size_arrows.png") 2px 1px no-repeat;
+	width: 14px;
+	height: 23px;
+	left: 29px;
+	top: 1px;
+	cursor: pointer;
+}
