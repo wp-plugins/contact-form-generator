@@ -102,3 +102,17 @@ overflow: hidden;
 background-color: #fff;
 border-radius: 6px;
 }
+\
+/*extra*/
+.cfg_ext_migrated_icon {
+	width: 32px;
+	height: 33px;
+float: left;
+width: 100px;
+height: 100px;
+overflow: hidden;
+background-color: #fff;
+border-radius: 6px;
+	text-decoration: none !important;
+	outline: none !important;
+}
