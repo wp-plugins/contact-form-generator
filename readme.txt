@@ -32,10 +32,10 @@ All you need is just to activate the plugin and insert the shortcode *[contactfo
 > * **Flexible email data configuration** - Multiple email recipients, BCC, reply to email, from email!
 > * **Auto-fill data** - Automatically fill in User name and email if logged in!
 > * **Ajax based** - Usage of AJAX technology, to send email without page reload!
-> * **Required fields** - Set all fields as required or not!
+> * **Attractive effects** - Completely new checkbox, radio selection effect, implemented special for this extension.
+> * **Required fields** - Set all fields as required or not.
 > * **Page redirect** - Allows page redirect to URL or menu item after sending email!
-> * **Attractive effects** - Completely new checkbox, radio selection effect, implemented special for this extension!
-> * **High level Spam protection** - It has integrated anti-spam protechtion, to prevent you from getting spam emails!
+> * **High level Spam protection** - It has integrated anti-spam protechtion, to prevent you from getting spam emails.
 > * **Load countries list** - It will load the countries list in your form(259 countries)!
 > * **Custom email subject** - The email subject can be customized!!
 > * **Shake effect if field is not valid** - Shackes count and distance can be configured from form options!
