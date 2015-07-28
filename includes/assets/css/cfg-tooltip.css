@@ -355,3 +355,11 @@ opacity: 0.99;
 width: 202px !important;
 padding: 4px 13px 5px 12px !important;
 }
+
+/*tooltip extra*/
+.the-tooltip.middled_extra {
+  border-bottom-color: transparent !important;
+  border-left-color: transparent !important;
+  border-right-color: transparent !important;
+  top: 100%;
+}
