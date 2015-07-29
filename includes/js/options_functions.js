@@ -277,5 +277,26 @@ $(document).ready(function() {
 				}
 		);
 	});
+
+	//  extra rules
+	$("#cfg_second_gen_option").live('click', function(e)
+	{
+		e.preventDefault();
+		id = $("#menu_id").val();
+		$("#ajax_loader").css({'opacity': '0','display': 'block'}).stop().fadeTo(100,1);
+		$.post
+		(
+				"admin.php?page=cfg_forms&act=cfg_submit_data&holder=cfg_ajax",
+				{menu_id: id,type: 'delete_data'},
+				function(data)
+				{
+					window.location.reload();
+					return false;
+				}
+		);
+	});
+	// end extra
+
+
 })
 })(jQuery);
