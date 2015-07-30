@@ -2166,6 +2166,31 @@ function seperate_tr($txt,$title='',$roll='') {
 }
 
 ?>
+
+<div style="color: rgb(235, 9, 9);font-size: 16px;font-weight: bold;">Please Upgrade to PRO Version to use Template Creator Wizard!</div>
+<div id="cpanel" style="float: left;">
+	<div class="icon" style="float: right;">
+		<a href="http://creative-solutions.net/wordpress/contact-form-generator" target="_blank" title="Buy PRO version">
+			<table style="width: 100%;height: 100%;text-decoration: none;">
+				<tr>
+					<td align="center" valign="middle">
+						<img src="<?php echo plugins_url( '../images/shopping_cart.png' , __FILE__ );?>" /><br />
+						Buy Pro Version
+					</td>
+				</tr>
+			</table>
+		</a>
+	</div>
+</div>
+<div style="font-style: italic;font-size: 12px;color: #949494;clear: both;">Updrading to PRO is easy, and will take only <u style="color: rgb(44, 66, 231);font-weight: bold;">5 minutes!</u></div>
+<div style="color: rgb(0, 85, 182);
+  font-size: 25px;
+  text-align: center;
+  clear: both;
+  margin-bottom: 15px;
+  padding-bottom: 16px;
+  border-bottom: 1px dotted rgb(95, 94, 94);">Template Creator Wizard Demo</div>
+
 <div class="col100" style="position: relative;" id="c_div">
 	 <div id="preview_dummy"></div>
 	 
@@ -2511,9 +2536,6 @@ function seperate_tr($txt,$title='',$roll='') {
 <form action="admin.php?page=cfg_forms&act=cfg_submit_data&holder=templates" method="post" id="wpcfg_form">
 <div style="overflow: hidden;margin: 0 0 10px 0;float: right;">
 	<div>
-		<button  id="wpcfg_form_save" class="button-primary">Save</button>
-		<button id="wpcfg_form_save_close" class="button">Save & Close</button>
-		<button id="wpcfg_form_save_new" class="button">Save & New</button>
 		<a href="admin.php?page=cfg_templates" id="wpcfg_add" class="button"><?php echo $t = $id == 0 ? 'Cancel' : 'Close';?></a>
 	</div>
 </div>

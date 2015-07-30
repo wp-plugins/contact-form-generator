@@ -72,6 +72,20 @@ $(document).ready(function() {
 			return true;
 		return false;
 	};
+
+	function cfg_show_copy() {
+		$(".contactformgenerator_footer").each(function() {
+			$this = $(this);
+			var copy_html = '<div style="color: #111;font-size: 11px;opacity: 0;">Powered by <span style="color: #bc360a;">Contact Form Generator</span></div>';
+			$this.append(copy_html);
+			setTimeout(function() {
+				$this.find('div').last().animate({
+					'opacity': 1
+				},1200);
+			},2500);
+		})
+	}
+	cfg_show_copy();
 	
 	var disableBlur = false;
 	

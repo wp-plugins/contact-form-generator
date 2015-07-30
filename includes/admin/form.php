@@ -147,7 +147,7 @@ else {
 		<td><input name="form_width" id="wpcfg_form_width" type="text" value="<?php echo $wpcfg_form_width;?>" class="required" /></td>	
 	</tr>
 	<tr>
-		<td><label for="wpcfg_id_template" title="Template">Template <span style="color: red">*</span></label><br /><a href="http://creative-solutions.net/wordpress/contact-form-generator/demo" target="_blank">See Templates Demo</a></td>
+		<td><label for="wpcfg_id_template" title="Template">Template <span style="font-size: 12px;color: rgb(221, 0, 0);font-style: italic;text-decoration: underline;display: inline-block;margin-left: 5px;">Commercial Version</span></label><br /><a href="http://creative-solutions.net/wordpress/contact-form-generator/demo" target="_blank">See Templates Demo</a></td>
 		<td>
 			<select id="wpcfg_id_template" name="id_template">
 				<?php 

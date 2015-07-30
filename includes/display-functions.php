@@ -5,15 +5,11 @@ global $wpcfg_field_index;
 global $wpcfg_section_width;
 global $wpcfg_section_id;
 global $wpcfg_heading_text_font_effect;
-global $wpcfg_db_edit_enable;
-
 $wpcfg_token = '';
 $wpcfg_field_index = 1;
 $wpcfg_section_width = '';
 $wpcfg_section_id = 1;
 $wpcfg_heading_text_font_effect = '';
-
-$wpcfg_db_edit_enable = false;
 
 function getBrowser() { 
 	    $u_agent = $_SERVER['HTTP_USER_AGENT']; 
@@ -166,7 +162,8 @@ function wpcfg_enqueue_front_scripts($form_id) {
 	$cssFile = plugin_dir_url( __FILE__ ).'/assets/css/cfg-scroll.css';
 	wp_enqueue_style('wpcfg-styles3', $cssFile);
 
-	wp_enqueue_style('wpcfg-styles4' . $form_id, admin_url() . 'admin.php?page=cfg_forms&act=cfg_submit_data&holder=generate_css&id_form='.$form_id.'&module_id=0');
+	$cssFile = plugin_dir_url( __FILE__ ).'/assets/css/template.css';
+	wp_enqueue_style('wpcfg-styles4', $cssFile);
 
 	$cssFile = plugin_dir_url( __FILE__ ).'/assets/css/cfg-tooltip.css';
 	wp_enqueue_style('wpcfg-styles5', $cssFile);

@@ -1,10 +1,10 @@
 === Contact Form Generator ===
 Contributors: creative-solutions
 Author: creative-solutions
-Tags: admin, advanced form, AJAX, Akismet, Attachment, buddypress, captcha, category, comment, comments, contact, Contact data, contact form, contact form 7, contact form builder, contact form generator, contact form plugin, contact forms, contact me, contact us, contacts, contacts form plugin, contatc, content, copy, CSS, css3, custom form, customer request, drag-and-drop, easy, easy contact form, easy contact plugin, email, email form, event, event forms, event registration form, excel, Facebook, feed, feedback, feedback form, file upload, form, form builder, form creator, form framework, form manager, form solution, form to email, forms, google, html, html5, image, images, insert the shortcode, invitations, iPad, iphone, javascript, job application, jquery, landing page, link, links, login, mail, media, mobile, multilingual, network, page, pages, php form builder, plugin, plugins, poll, polls, Post, post feedback, posts, qtranslate, recaptcha, request, responsive, Responsive Contact Form, responsive form, rss, secure, send, send copy, send messages, seo, Share, shortcode, shortcode form, sidebar, simple, social, society, stats, survey, surveys, tablet, text, twitter, web form, web-page, feedback, widget, wordpress, wordpress-contact-form
+Tags: admin, advanced form, AJAX, Akismet, Attachment, buddypress, captcha, category, comment, comments, contact, contact button, Contact data, contact form, contact form 7, contact form builder, contact form generator, contact form plugin, contact forms, contact me, contact us, contacts, contacts form plugin, contatc, content, copy, CSS, css3, custom form, customer request, drag-and-drop, easy, easy contact form, easy contact plugin, email, email form, event, event forms, event registration form, excel, Facebook, feed, feedback, feedback form, file upload, form, form builder, form creator, form framework, form manager, form solution, form to email, forms, google, html, html5, image, images, insert the shortcode, invitations, iPad, iphone, javascript, job application, jquery, landing page, link, links, login, mail, media, mobile, multilingual, network, page, pages, php form builder, plugin, plugins, poll, polls, Post, post feedback, posts, qtranslate, recaptcha, request, responsive, Responsive Contact Form, responsive form, rss, secure, send, send copy, send messages, seo, Share, shortcode, shortcode form, sidebar, simple, social, society, stats, survey, surveys, tablet, text, twitter, web form, web-page, feedback, widget, wordpress, wordpress contact form
 Requires at least: 3.6.1
-Tested up to: 4.2.2
-Stable tag: 1.0.7
+Tested up to: 4.2.3
+Stable tag: 2.0.1
 
 Contact Form Generator is a powerful contact form builder for WordPress!
 
@@ -12,7 +12,7 @@ Contact Form Generator is a powerful contact form builder for WordPress!
 
 **Contact Form Generator** is a powerful contact form builder for WordPress! It is structured for creating *Contact Forms*, *Application Forms*, *Reservation Forms*, *Survey Forms*, *Contact Data Pages* and much more. You will get **ready-to-use forms** just after installation.
 
-**Contact Form Generator**  is packed with a [Template Creator Wizard](http://creative-solutions.net/wordpress/contact-form-generator/template-creator-demo) to create fantastic forms in a matter of seconds without coding. You can use one of existong templates, or create your own!
+**Contact Form Generator**  is packed with a [Template Creator Wizard](http://creative-solutions.net/wordpress/contact-form-generator/template-creator-demo)(Pro) to create fantastic forms in a matter of seconds without coding. You can use one of existong templates, or create your own!
 
 **Contact Form Generator** is extremely easy to install and configure. 
 All you need is just to activate the plugin and insert the shortcode *[contactformgenerator id="ID"]* into the text.
@@ -31,11 +31,11 @@ All you need is just to activate the plugin and insert the shortcode *[contactfo
 > * **Flexible texts** - Each text in form can be easily configured from form options!
 > * **Flexible email data configuration** - Multiple email recipients, BCC, reply to email, from email!
 > * **Auto-fill data** - Automatically fill in User name and email if logged in!
-> * **Ajax based** - Usage of AJAX technology, to send email without page reload!
-> * **Attractive effects** - Completely new checkbox, radio selection effect, implemented special for this extension.
-> * **Required fields** - Set all fields as required or not.
+> * **Attractive effects** - Completely new checkbox, radio selection effect, implemented special for this extension!
 > * **Page redirect** - Allows page redirect to URL or menu item after sending email!
-> * **High level Spam protection** - It has integrated anti-spam protechtion, to prevent you from getting spam emails.
+> * **Required fields** - Set all fields as required or not!
+> * **Ajax based** - Usage of AJAX technology, to send email without page reload!
+> * **High level Spam protection** - It has integrated anti-spam protechtion, to prevent you from getting spam emails!
 > * **Load countries list** - It will load the countries list in your form(259 countries)!
 > * **Custom email subject** - The email subject can be customized!!
 > * **Shake effect if field is not valid** - Shackes count and distance can be configured from form options!
@@ -52,18 +52,15 @@ All you need is just to activate the plugin and insert the shortcode *[contactfo
 > * [File Upload Progress](http://creative-solutions.net/wordpress/contact-form-generator/demo?form_id=9&template_id=16) 
 > * [Contact Form With Calendars](http://creative-solutions.net/wordpress/contact-form-generator/demo?form_id=10&template_id=18) 
 > * [Event Registration Form](http://creative-solutions.net/wordpress/contact-form-generator/demo?form_id=11&template_id=19) 
-> * [Online Booking Form](http://creative-solutions.net/wordpress/contact-form-generator/demo?form_id=13&template_id=24) 
 > * [Simple Application Form](http://creative-solutions.net/wordpress/contact-form-generator/demo?form_id=12&template_id=21) 
-> * [Evaluation Survey](http://creative-solutions.net/wordpress/contact-form-generator/demo?form_id=15&template_id=28) 
+> * [Online Booking Form](http://creative-solutions.net/wordpress/contact-form-generator/demo?form_id=13&template_id=24) 
 > * [Hotel Reservation Form](http://creative-solutions.net/wordpress/contact-form-generator/demo?form_id=14&template_id=25) 
+> * [Evaluation Survey](http://creative-solutions.net/wordpress/contact-form-generator/demo?form_id=15&template_id=28) 
 > * [Complex Job Application Form](http://creative-solutions.net/wordpress/contact-form-generator/demo?form_id=17&template_id=28) 
 > * [All Elements Demo](http://creative-solutions.net/wordpress/contact-form-generator/demo?form_id=20&template_id=9) 
 > * [Sky Template Contact Form](http://creative-solutions.net/wordpress/contact-form-generator/demo?form_id=19&template_id=30) 
-> * [Wood Template Contact Form](http://creative-solutions.net/wordpress/contact-form-generator/demo?form_id=19&template_id=28)
+> * [Wood Template Contact Form](http://creative-solutions.net/wordpress/contact-form-generator/demo?form_id=19&template_id=28) 
 
-### Other Creative Plugins:
-> * [Creative Image Slider](https://wordpress.org/plugins/creative-image-slider/) - Powerful WordPress slider! [Live Demo](http://creative-solutions.net/wordpress/creative-image-slider/demo)
-> * [GSpeech](https://wordpress.org/plugins/gspeech/) - Speaks any text in your site! [Live Demo](http://creative-solutions.net/wordpress/gspeech/demo)
 
 
 ### Support:
@@ -80,12 +77,11 @@ Use it and be happy!
 
 == Changelog ==
 
-= V 1.0.6 - 06/05/2015 =
-* hide possible warnings
-* 4.2.1 compatible
-
-= V 1.0.5 - 08/04/2015 =
-* css3 style corrections!
+= V 2.0.1 - 30/07/2015 =
+* Fixed admin bug in forms save page!
+* Fixed javascript bugs!
+* Template Creator made commercial feature!
+* Migrated template styles to template.css file!
 
 = V 1.0.4 - 16/03/2015 =
 * Fixed Template Creator Issues!
@@ -104,17 +100,17 @@ Use it and be happy!
 
 == Screenshots == 
 
-01. White Template Contact Form
-02. Black Template
-03. Wood Template
-04. Sky Template
-05. Gray Template
-06. Templatre Creator Wizard
-07. Blue-White Template
-08. Drag&Drop reordering
-09. Easy-to-use shortcode manager
-10. White Template 2
-11. Gray Template Example
-12. Yellow Template
-13. Green Template
+1. White Template
+2. Drag&Drop reordering
+3. Easy-to-use shortcode manager
+4. Templatre Creator Wizard
+5. White Template 2
+6. Gray Template Example
+7. Yellow Template
+8. Green Template
+9. Fray Template
+10. Black Template
+11. Sky Template
+12. Wood Template
+13. Blue-White Template
 14. Easy to use admin
