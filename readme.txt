@@ -19,14 +19,14 @@ All you need is just to activate the plugin and insert the shortcode *[contactfo
 
 ### Useful Links:
 > * [Live Demo](http://creative-solutions.net/wordpress/contact-form-generator/demo) 
-> * [Template Creator Demo](http://creative-solutions.net/wordpress/contact-form-generator/template-creator-demo) 
+> * [Template Creator Demo(Pro)](http://creative-solutions.net/wordpress/contact-form-generator/template-creator-demo) 
 > * [Homepage](http://creative-solutions.net/wordpress/contact-form-generator)
 > * [Documentation](http://creative-solutions.net/wordpress/contact-form-generator/documentation)
 > * [Support Forum](http://forum.creative-solutions.net/contact-form-generator-wordpress/)
 
 ### Main Fetures:
 > * **Flexible field types** - The following field types are avaliable: name, email, phone, address, url, number, textarea, select, multiple select, checkbox, radio!
-> * **Template Creator Wizard** - Template creator wizard with live preview to create fantastic forms in a matter of seconds without coding. [Live Demo](http://creative-solutions.net/wordpress/contact-form-generator/template-creator-demo)
+> * **Template Creator Wizard(Pro)** - Template creator wizard with live preview to create fantastic forms in a matter of seconds without coding. [Live Demo](http://creative-solutions.net/wordpress/contact-form-generator/template-creator-demo)
 > * **Insert forms anywhere** - You can use shortcode to insert forms anywhere in content!
 > * **Flexible texts** - Each text in form can be easily configured from form options!
 > * **Flexible email data configuration** - Multiple email recipients, BCC, reply to email, from email!
