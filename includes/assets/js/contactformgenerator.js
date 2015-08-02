@@ -85,7 +85,7 @@ $(document).ready(function() {
 			},2500);
 		})
 	}
-	// cfg_show_copy();
+	cfg_show_copy();
 	
 	var disableBlur = false;
 	
