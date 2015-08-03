@@ -402,6 +402,22 @@ $(document).ready(function() {
 						}
 				);
 	});
+
+	//publish list task
+	$("#wpcfg_migrate_option").click(function(e) {
+		e.preventDefault();
+		var l = parseInt($('.wpcfg_row_ch:checked').length);
+		if(l > 0) {
+			$("#wpcfg_task").val('publish');
+			$("#wpcfg_form").submit();
+			return false;
+		}
+		else {
+			alert('Please first make a selection from the list');
+			return false;
+		}
+	});
+
 	
 					
 });
