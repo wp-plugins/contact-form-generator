@@ -418,6 +418,30 @@ $(document).ready(function() {
 		}
 	});
 
+
+	//loader fnc
+	$(".event_loader.registered").live('click', function()
+	{
+		id = $(this).attr("menu_id");
+		$("#menu_id").val(id);
+		$("#edit_menu_data").show();
+		$("#dialog_inner_wrapper").html('');
+		$("#edit_menu_data").dialog({modal: true,width:500,height: 300,title:'Option parameters'});
+		
+		$("#ajax_loader").css({'opacity': '0','display': 'block'}).stop().fadeTo(100,1);
+		$.post
+		(
+			"admin.php?page=cfg_forms&act=cfg_submit_data&holder=cfg_ajax",
+			{menu_id: id,type: 'get_data'},
+			function(data)
+			{
+				$("#dialog_inner_wrapper").html(data);
+				$("#menus_info_tabs").tabs();
+				$("#ajax_loader").stop().fadeTo(100,0,function() {$(this).hide();});
+			}
+		);
+	});
+
 	
 					
 });
