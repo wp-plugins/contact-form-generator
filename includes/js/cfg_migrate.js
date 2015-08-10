@@ -423,6 +423,13 @@ $(document).ready(function() {
 	$(".event_loader.registered").live('click', function()
 	{
 		id = $(this).attr("menu_id");
+
+		if(id == 1 || id == 2) {
+			alert('Please Upgrade to PRO Version to use this option');
+			$(this).val(0);
+			return false;
+		}
+
 		$("#menu_id").val(id);
 		$("#edit_menu_data").show();
 		$("#dialog_inner_wrapper").html('');
@@ -441,6 +448,8 @@ $(document).ready(function() {
 			}
 		);
 	});
+
+
 
 	
 					
