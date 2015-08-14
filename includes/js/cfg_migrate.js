@@ -449,6 +449,13 @@ $(document).ready(function() {
 		);
 	});
 
+	$( "#sortable_tags" ).sortable(
+	{
+		stop: function(event, ui) 
+		{
+			$( "#sortable_tags" ).sortable( "option", "disabled", true );
+		}
+	});
 
 
 	
